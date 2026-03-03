@@ -1,4 +1,4 @@
-# <img src="https://i.imgur.com/Og6gFnB.png" alt="Fivetran Logo" width="100" style="vertical-align: middle;"/> Fivetran | Snowflake HOL 2025
+# <img src="https://i.imgur.com/Og6gFnB.png" alt="Fivetran Logo" width="100" style="vertical-align: middle;"/> Fivetran | SDK HOL 2026
 
 # 💻 Fivetran Hands-on Lab Pre-Requisites: Laptop Requirements
 
