@@ -72,7 +72,7 @@ No need to start trials for Fivetran or Snowflake. We have already provisioned t
 
 ## Fivetran
 
-1. You will receive an email on the day of the lab with the subject line **David Hrncir Invited You to Join Fivetran!** for the email used during registration.  Note that if you do not see this email, you may need to check your junk/spam folder.
+1. You will receive an email/ message on the day of the lab with the with the link to register (be added) to a Fivetran HOL account. 
 2. Click the **Accept Invite** link in the email and follow the instructions. Remember to keep your password handy.
 3. If you close your browser tab for the Fivetran UI, no worries. Simply launch a new tab and go to the **[Fivetran Login Page](https://fivetran.com/login)** to re-login.
 4. The account name shown in the upper left corner of the screen will be **MDS_SNOWFLAKE_HOL**.
@@ -85,8 +85,8 @@ If you are a current Fivetran customer, you will be taken directly into the Five
 ## Snowflake
 
 1. On the day of the lab, the instructor will provide you with your password to the **[Fivetran provisioned Snowflake account](https://aa67604.us-central1.gcp.snowflakecomputing.com/console/login#/)**.
-2. Your Snowflake user login ID will be in the following format:  **HOL_[first name]_[last_name]_USER**
-3. The password will be provided in the chat on lab day and will only be valid during lab time.
+2. Your Snowflake user login ID and the password will be provided in the chat on lab day and will only be valid during lab time.
+3. When creating worksheet in Snowflake, name your worksheet with your first_lastname or initials. You will be sharing the same Snowflake loggin
 -----
 
 # Let's build a custom connector!
