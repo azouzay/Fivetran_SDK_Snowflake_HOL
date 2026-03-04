@@ -54,7 +54,7 @@ The Agriculture AGR custom connector should fetch livestock health records from 
 ### 2.1 Install the Fivetran Connector SDK Package
 Let's install the Fivetran Connector SDK package. We will directly use version 1.7.0. In your terminal with your Python environment already activated, run the following command:
 ```bash
-pip install fivetran-connector-sdk==1.7.0
+pip install fivetran-connector-sdk
 ```
 
 ### 2.2 Debug the Custom Connector Locally
