@@ -2,7 +2,7 @@
 
 # 💻 Fivetran Hands-on Lab Pre-Requisites: Laptop Requirements
 
-We are going to have a great lab demonstrating the ease with which Fivetran allows you to add your custom data sources to your Snowflake destination. You should have received an email post lab registration that provides the requirements for your development environment. The following items need to be completed before we start the lab, as our instructors and Q&A personnel will only be able to answer questions about Fivetran, Snowflake, and the Fivetran Connector SDK. Due to the wide range of development options, we won't be able to assist you in setting up your environment or answer questions related to environment setup.
+We are going to have a great lab demonstrating the ease with which Fivetran allows you to add your custom data sources to your Snowflake destination. You should have received an email post lab registration that provides the requirements for your development environment. The following items need to be completed before we start the lab, as our instructors and Q&A personnel will only be able to answer questions about Fivetran, Snowflake, and the Fivetran Connector SDK. **Due to the wide range of development options, we won't be able to assist you in setting up your environment or answer questions related to environment setup.**
 
 -----
 
