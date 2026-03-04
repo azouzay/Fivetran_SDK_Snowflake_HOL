@@ -52,12 +52,18 @@ The Retail Dynamic Pricing RDP custom connector should fetch pricing, inventory,
 ## Step 2: Create a Custom Fivetran Connector
 
 ### 2.1 Install the Fivetran Connector SDK Package
-Let's install the Fivetran Connector SDK package. We will directly use version 1.7.0. In your terminal with your Python environment already activated, run the following command:
+Let's install the Fivetran Connector SDK package. In your terminal with your Python environment already activated, run the following command:
 ```bash
-pip install fivetran-connector-sdk==1.7.0
+pip install fivetran-connector-sdk
 ```
 
-### 2.2 Debug the Custom Connector Locally
+### 2.2 Initialize the Connector SDK folder structure
+Run this command in your terminal to build the files structure in your current folder.
+```bash
+fivetran init
+```
+
+### 2.3 Debug the Custom Connector Locally
 1. Let's debug our code in the terminal by running the following commands. **fivetran reset** tells your local SDK system that all files and temporary databases should be reset for a brand new run. **fivetran debug** tells your local SDK system that it should mimic locally what Fivetran would be doing in Fivetran's environment.  You will notice that you must pass in the **--configuration configuration.json** parameter for the debug command since you could be testing multiple types of configurations during a development/testing cycle.
 ```bash
 fivetran reset
@@ -72,7 +78,7 @@ fivetran debug --configuration configuration.json
 
 ***PAUSE: Let's analyze what is happening behind the scenes.***
 
-### 2.3 Deploy the Custom Connector to Fivetran
+### 2.4 Deploy the Custom Connector to Fivetran
 Let's deploy this code into Fivetran. This is the portion where all of the environment variables will be utilized.  Let's run the following command.  This command will prompt you for parameters, but you will notice that the command takes our environment variables and presents them as defaults.  You can just press enter/return through those.  **Note that only a portion of the Fivetran API key will be shown.**
 ```bash
 fivetran deploy --configuration configuration.json
@@ -125,7 +131,7 @@ This step completely optional, but if you would like to see how we generated the
 2. Next, from the **Prompts** folder in this vertical, copy the **user_prompt.txt** text and paste directly after the system prompt.  Again, if your interface has a separate section for the user prompt, paste it there.
 3. Execute the prompts.
 4. Copy and paste the results overwriting all of the code in the **connector.py** file.
-5. Run step **2.2** above to debug and step **2.3** to deploy your generated version.
+5. Run step **2.3** above to debug and step **2.4** to deploy your generated version.
 
 Instructor tidbits on using GenAI. Most LLMs work flawlessly with the prompts in this repo. The prompts are created for the source API used for this lab. If there is an error, copy and paste the error back into the LLM and ask it to review and fix the code.  If no errors, but the code does not work, that requires good-ole debugging. Most of the time when this happens, there is only a small bug like incorrect API key name, table name, or the use of the **has_more** flag. For the most part, the code should be complete and only minor tweaks may be needed.
 

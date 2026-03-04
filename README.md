@@ -8,7 +8,7 @@ We are going to have a great lab demonstrating the ease with which Fivetran allo
 
 ## Python Environment 🐍
 
-You will need to have **Python version 3.9, 3.10, 3.11, or 3.12** installed and verified on your system. The instructor will be using **Python 3.12.8**.
+You will need to have **Python version 3.9 - 3.14** installed and verified on your system. The instructor will be using **Python 3.13**.
 
 While detailed installation instructions are beyond the scope of this document, here are some common approaches for managing Python versions:
 
@@ -21,7 +21,7 @@ While detailed installation instructions are beyond the scope of this document, 
 python3 --version
 ```
 
-You should see an output indicating your installed Python version (e.g., `Python 3.12.8`).
+You should see an output indicating your installed Python version (e.g., `Python 3.13`).
 
 **Virtual Environments:** You will also need to understand how to create, activate, and deactivate Python virtual environments, which are crucial for managing project dependencies.
 
@@ -38,15 +38,15 @@ You'll need an IDE or code editor to develop your Fivetran Connector. Here are s
 
 -----
 
-## Database Query Tool 📊
+## Database Query Tool (optional) 📊
 
-A database query tool capable of opening a **DuckDB file** is required. A recommended option is:
+A database query tool capable of opening a **DuckDB file**. A recommended option is:
 
   * **[DBeaver](https://dbeaver.io/download/)** - Note that the first time you try to open a DuckDB file, you will be prompted to download the plugin. Another side note is that if you intend to use DBeaver, choose the **New Database Connection** option and select **DuckDB** from the list, rather than the "open file" method.  DBeaver will save your connection, so once the new connection is established, the reference will remain even after closing DBeaver.
 
 -----
 
-## Access to a Large Language Model (LLM) 🧠
+## Access to a Large Language Model (optional) 🧠
 
 ### 🔥🔥🔥 ATTENDEES WILL NOT BE CODING THIS BY HAND/MANUALLY (YAY)\! 🔥🔥🔥
 
